@@ -16,7 +16,7 @@ function Project() {
                 <h6 className="fw-bold">Restuarant Event Billing System</h6>
                 <p className="fs-5">This project is a web-based application that allows users to manage restaurant events and billing. It provides features such as event creation, menu management, and bill generation.</p> */}
                 <Card style={{ width: '25rem',objectFit: 'cover' }}>
-                    <Card.Img variant="top" src="./src/assets/Images/img3.png" className="p-4 rounded-5" />
+                    <Card.Img variant="top" src="../src/assets/Images/Resturant.png" className="p-4 rounded-5" />
                     <Card.Body>
                         <Card.Title>Restuarant Event Billing System</Card.Title>
                         <Card.Text>
@@ -31,7 +31,7 @@ function Project() {
                 <h6 className="fw-bold">College Event Management System</h6>
                 <p className="fs-5">This project is a web-based application that allows users to manage college events. It provides features such as event creation, registration management, and event scheduling.</p> */}
                 <Card style={{ width: '25rem',objectFit: 'cover' }}>
-                    <Card.Img variant="top" src="./src/assets/Images/img4.png" className="p-4 rounded-5" />
+                    <Card.Img variant="top" src="./src/assets/Images/Conference.png" className="p-4 rounded-5" />
                     <Card.Body>
                         <Card.Title>College Event Management System</Card.Title>
                         <Card.Text>
@@ -46,7 +46,7 @@ function Project() {
                 <h6 className="fw-bold">College Event Management System</h6>
                 <p className="fs-5">This project is a web-based application that allows users to manage college events. It provides features such as event creation, registration management, and event scheduling.</p> */}
                 <Card style={{ width: '25rem',objectFit: 'cover' }} >
-                    <Card.Img variant="top" src="./src/assets/Images/img5.png" className="p-4 rounded-5" />
+                    <Card.Img variant="top" src="./src/assets/Images/E-Commerce.png" className="p-4 rounded-5" />
                     <Card.Body>
                         <Card.Title>Zentric AI E-Commerce Platform</Card.Title>
                         <Card.Text>
