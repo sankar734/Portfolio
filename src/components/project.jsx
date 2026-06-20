@@ -12,7 +12,7 @@ function Project() {
         <Row className="align-items-center">
             <Col xs={12} md={4} className="text-center mb-4"> 
                 <Card style={{ width: '100%', maxWidth: '25rem',objectFit: 'cover' }}>
-                    <Card.Img variant="top" src="/Images/Resturant.png" className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
+                    <Card.Img variant="top" src="../assets/Images/Resturant.png" className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
                     <Card.Body>
                         <Card.Title>Restuarant Event Billing System</Card.Title>
                         <Card.Text>
@@ -24,7 +24,7 @@ function Project() {
             </Col>
             <Col xs={12} md={4} className="text-center mb-4 ">
                 <Card style={{ width: '100%', maxWidth: '25rem',objectFit: 'cover' }}>
-                    <Card.Img variant="top" src="/Images/Conference.png" className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
+                    <Card.Img variant="top" src="../assets/Images/Conference.png" className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
                     <Card.Body>
                         <Card.Title>College Event Management System</Card.Title>
                         <Card.Text>
@@ -36,7 +36,7 @@ function Project() {
             </Col>
             <Col xs={12} md={4} className="text-center mb-4 ">
                 <Card style={{ width: '100%', maxWidth: '25rem',objectFit: 'cover' }} >
-                    <Card.Img variant="top" src="/Images/Ecommerce.png" className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
+                    <Card.Img variant="top" src="../assets/Images/Ecommerce.png" className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
                     <Card.Body>
                         <Card.Title>Zentric AI E-Commerce Platform</Card.Title>
                         <Card.Text>
