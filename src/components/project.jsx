@@ -4,9 +4,9 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-import ResturantImage from "../assets/Images/Resturant.png";
-import ConferenceImage from "../assets/Images/Conference.png";
-import EcommerceImage from "../assets/Images/E-Commerce.png";
+import ResturantImage from "../assets/Images/Resturant.jpeg";
+import ConferenceImage from "../assets/Images/Conference.jpeg";
+import EcommerceImage from "../assets/Images/E-Commerce.jpeg";
 
 function Project() {
   return (
