@@ -9,7 +9,7 @@ function About(){
     const skills = ["HTML", "CSS", "Bootstrap","JavaScript", "React", "Node.js", "Express", "MongoDB"];
     return(
         <div id="about" style={{ backgroundColor: "#06090d", color: "white", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-        <Container className="py-5" id="about">
+        <Container className="py-5" >
             <h1 className="display-3 fw-bold text-center m-5" style={{color:"#2a11ee"}}>About Me</h1>
             <Row className="align-items-center">
               <Col md={5} className="text-center mb-4">
