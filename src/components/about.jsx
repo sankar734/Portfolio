@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Badge from 'react-bootstrap/Badge';
-import image from './assets/Images/img7.jpeg';
+import Image from './assets/Images/img7.jpeg';
 
 function About(){
     const skills = ["HTML", "CSS", "Bootstrap","JavaScript", "React", "Node.js", "Express", "MongoDB"];
