@@ -11,10 +11,6 @@ function Project() {
         <h1 className="display-3 fw-bold text-center m-5" style={{color:"#2a11ee"}}>My Project</h1>
         <Row className="align-items-center">
             <Col xs={12} md={4} className="text-center mb-4"> 
-                {/* <img src="./src/assets/Images/img3.p
-                ng" style={{width:"350px", height:"200px"}} rounded />
-                <h6 className="fw-bold">Restuarant Event Billing System</h6>
-                <p className="fs-5">This project is a web-based application that allows users to manage restaurant events and billing. It provides features such as event creation, menu management, and bill generation.</p> */}
                 <Card style={{ width: '100%', maxWidth: '25rem',objectFit: 'cover' }}>
                     <Card.Img variant="top" src="/Images/Resturant.png" className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
                     <Card.Body>
@@ -27,9 +23,6 @@ function Project() {
                 </Card>
             </Col>
             <Col xs={12} md={4} className="text-center mb-4 ">
-                {/* <img src="./src/assets/Images/img4.png" style={{width:"350px", height:"200px"}} rounded />
-                <h6 className="fw-bold">College Event Management System</h6>
-                <p className="fs-5">This project is a web-based application that allows users to manage college events. It provides features such as event creation, registration management, and event scheduling.</p> */}
                 <Card style={{ width: '100%', maxWidth: '25rem',objectFit: 'cover' }}>
                     <Card.Img variant="top" src="/Images/Conference.png" className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
                     <Card.Body>
@@ -42,9 +35,6 @@ function Project() {
                 </Card>
             </Col>
             <Col xs={12} md={4} className="text-center mb-4 ">
-                {/* <img src="./src/assets/Images/img4.png" style={{width:"350px", height:"200px"}} rounded />
-                <h6 className="fw-bold">College Event Management System</h6>
-                <p className="fs-5">This project is a web-based application that allows users to manage college events. It provides features such as event creation, registration management, and event scheduling.</p> */}
                 <Card style={{ width: '100%', maxWidth: '25rem',objectFit: 'cover' }} >
                     <Card.Img variant="top" src="/Images/Ecommerce.png" className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
                     <Card.Body>
