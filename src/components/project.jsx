@@ -4,6 +4,10 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+import ResturantImage from "../assets/Images/Resturant.png";
+import ConferenceImage from "../assets/Images/Conference.png";
+import EcommerceImage from "../assets/Images/E-commerce.png";
+
 function Project() {
   return (
     <div id="project" style={{ backgroundColor: "#06090d", color: "white", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
@@ -12,7 +16,7 @@ function Project() {
         <Row className="align-items-center">
             <Col xs={12} md={4} className="text-center mb-4"> 
                 <Card style={{ width: '100%', maxWidth: '25rem',objectFit: 'cover' }}>
-                    <Card.Img variant="top" src="../assets/Images/Resturant.png" className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
+                    <Card.Img variant="top" src={ResturantImage} className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
                     <Card.Body>
                         <Card.Title>Restuarant Event Billing System</Card.Title>
                         <Card.Text>
@@ -24,7 +28,7 @@ function Project() {
             </Col>
             <Col xs={12} md={4} className="text-center mb-4 ">
                 <Card style={{ width: '100%', maxWidth: '25rem',objectFit: 'cover' }}>
-                    <Card.Img variant="top" src="../assets/Images/Conference.png" className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
+                    <Card.Img variant="top" src={ConferenceImage} className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
                     <Card.Body>
                         <Card.Title>College Event Management System</Card.Title>
                         <Card.Text>
@@ -36,7 +40,7 @@ function Project() {
             </Col>
             <Col xs={12} md={4} className="text-center mb-4 ">
                 <Card style={{ width: '100%', maxWidth: '25rem',objectFit: 'cover' }} >
-                    <Card.Img variant="top" src="../assets/Images/Ecommerce.png" className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
+                    <Card.Img variant="top" src={EcommerceImage} className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>
                     <Card.Body>
                         <Card.Title>Zentric AI E-Commerce Platform</Card.Title>
                         <Card.Text>
