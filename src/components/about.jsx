@@ -13,7 +13,7 @@ function About(){
             <h1 className="display-3 fw-bold text-center m-5" style={{color:"#2a11ee"}}>About Me</h1>
             <Row className="align-items-center">
               <Col md={5} className="text-center mb-4">
-                  <Image src="{image}" style={{width:"60%", height:"60%"}} roundedCircle />
+                  <Image src={image} style={{width:"60%", height:"60%"}} roundedCircle />
                   
               </Col>
               <Col md={7}>
