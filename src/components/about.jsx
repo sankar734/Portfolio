@@ -10,7 +10,7 @@ function About(){
     return(
         <div id="about" style={{ backgroundColor: "#06090d", color: "white", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
         <Container className="py-5" >
-            <h1 className="display-3 fw-bold text-center m-5" style={{color:"#2a11ee"}}>About Me</h1>
+            <h1 className="display-3 fw-bold text-center m-5" style={{fontSize: '80px',background: "linear-gradient(100deg, #2a11ee 10%, #1fa7e2 90%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>About Me</h1>
             <Row className="align-items-center">
               <Col md={5} className="text-center mb-4">
                   <Image src={ProfileImage} style={{width:"60%", height:"60%"}} roundedCircle />

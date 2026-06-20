@@ -12,8 +12,8 @@ function Project() {
   return (
     <div id="project" style={{ backgroundColor: "#06090d", color: "white", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
     <Container className="py-5">
-        <h1 className="display-3 fw-bold text-center m-5" style={{color:"#2a11ee"}}>My Project</h1>
-        <Row className="align-items-center">
+        <h1 className="display-3 fw-bold text-center m-5" style={{fontSize: '80px',background: "linear-gradient(100deg, #2a11ee 10%, #1fa7e2 90%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>My Project</h1>
+        <Row className="align-items-center ">
             <Col xs={12} md={4} className="text-center mb-4"> 
                 <Card style={{ width: '100%', maxWidth: '25rem',objectFit: 'cover' }}>
                     <Card.Img variant="top" src={ResturantImage} className="p-4 rounded-5"  style={{height: "220px",objectFit: "cover"}}/>

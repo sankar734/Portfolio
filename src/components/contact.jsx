@@ -9,7 +9,7 @@ function Contact(){
     return(
         <div id="contact" style={{ backgroundColor: "#06090d", color: "white", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
         <Container className="py-5">
-            <h1 className="display-3 fw-bold text-center m-5" style={{color:"#2a11ee"}}>Contact Me</h1>
+            <h1 className="display-3 fw-bold text-center m-5" style={{fontSize: '80px',background: "linear-gradient(100deg, #2a11ee 10%, #1fa7e2 90%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Contact Me</h1>
             <Row className="align-items-center justify-content-center">
                 <Col md={5}>
                     <Card style={{ width: '25rem',objectFit: 'cover', height:'450px' }} >
