@@ -5,6 +5,7 @@ import Hero from './components/hero';
 import About from './components/about';
 import Project from './components/project';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <Project/>
       <Contact/>
+      <Footer/>
     </>
   )
 }
