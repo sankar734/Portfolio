@@ -39,7 +39,7 @@ import Image from "react-bootstrap/Image";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import ProfileImage from "../assets/Images/Profile.jpeg";
+import ProfileImage from "../assets/Images/ProfileImage.jpeg";
 import "./about.css";
 
 function About() {

@@ -64,13 +64,10 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./project.css";
-import Button from "react-bootstrap/Button";
 
 import ResturantImage from "../assets/Images/Resturant.png";
 import ConferenceImage from "../assets/Images/Conference.png";
 import EcommerceImage from "../assets/Images/E-commerce.png";
-
-import "./project.css";
 
 function Project() {
     const projects = [
