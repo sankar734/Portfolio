@@ -56,11 +56,9 @@
 }
 
 .hero-title span {
-  background: linear-gradient(
-    135deg,
-    #6366f1,
-    #8b5cf6
-  );
+  background: linear-gradient(135deg,
+      #6366f1,
+      #8b5cf6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -88,11 +86,9 @@
 
 .btn-primary-custom {
   text-decoration: none;
-  background: linear-gradient(
-    135deg,
-    #6366f1,
-    #8b5cf6
-  );
+  background: linear-gradient(135deg,
+      #6366f1,
+      #8b5cf6);
   color: white;
   padding: 14px 30px;
   border-radius: 50px;

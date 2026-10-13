@@ -13,11 +13,9 @@
 }
 
 .section-title span {
-  background: linear-gradient(
-    135deg,
-    #6366f1,
-    #8b5cf6
-  );
+  background: linear-gradient(135deg,
+      #6366f1,
+      #8b5cf6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -25,10 +23,10 @@
 .about-card {
   background: rgba(30, 41, 59, 0.6);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 30px;
   padding: 50px;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
 .profile-wrapper {
@@ -40,7 +38,7 @@
   height: 280px;
   object-fit: cover;
   border: 4px solid #6366f1;
-  box-shadow: 0 0 40px rgba(99,102,241,0.4);
+  box-shadow: 0 0 40px rgba(99, 102, 241, 0.4);
 }
 
 .about-content h3 {
@@ -67,8 +65,8 @@
 }
 
 .skill-card {
-  background: rgba(99,102,241,0.15);
-  border: 1px solid rgba(99,102,241,0.3);
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.3);
   color: white;
   padding: 12px 20px;
   border-radius: 50px;
